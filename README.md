@@ -52,5 +52,17 @@ The firmware relies on non-blocking state management to track player input seque
 4. **State Transition & Standby:** Triggers multi-color status LED feedback (Yellow for confirmation, Green/Red for outcome) and latches all register outputs `HIGH` to enter a persistent idle state awaiting a hardware reset (game reset, so the player can choose to play again).
 ---
 
-## 📸 Demo / Gallery
-*(Optional: Drop a short GIF or photo of your breadboard / enclosure here showing the LEDs lighting up and the buttons being pressed!)*
+## Circuit Architecture & Schematic
+
+![Tinkercad Schematic](Assets/Schematic1.png)
+*Figure 1: Full Tinkercad circuit mapping illustrating pin connections between the Arduino, 74HC595 shift register, status LEDs, and input button.*
+
+![Tinkercad Schematic](Assets/Schematic2.png)
+*Figure 2: Full Tinkercad circuit mapping illustrating pin connections between the Arduino, 74HC595 shift register, status LEDs, and input button.*
+
+---
+
+## Hardware Setup
+
+![Physical Hardware Setup](Assets/CircuitDesign.png)
+*Figure 3: Physical breadboard assembly featuring the 8-bit LED array, status feedback cluster, Arduino, and IC.*

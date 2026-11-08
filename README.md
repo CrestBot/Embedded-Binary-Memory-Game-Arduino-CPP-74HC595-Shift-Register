@@ -36,7 +36,7 @@ An embedded systems project built on an Arduino microcontroller utilizing a **74
 | **74HC595 RCLK (Pin 12)** | Arduino Pin 9 | Storage Register Clock (Latch) |
 | **74HC595 SERCLR (Pin 10)**  | 5V (HIGH) | Master Reset (Active Low) |
 | **74HC595 OE (Pin 13)**  | GND (LOW) | Output Enable (Active Low) |
-| **Input Button**         | Arduino Pin 12 | Debounced Player Input (`INPUT_PULLUP`) |
+| **Input Button**         | Arduino Pin 12 | Player Input |
 | **Yellow Status LED**    | Arduino Pin 5 | Input Confirmation Indicator |
 | **Green Status LED**     | Arduino Pin 6 | Win State Indicator |
 | **Red Status LED**       | Arduino Pin 4 | Loss State Indicator |
